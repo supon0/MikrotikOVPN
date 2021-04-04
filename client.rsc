@@ -23,3 +23,4 @@ import file-name=rootCA.crt passphrase=12345678
 import file-name=rootCA.key passphrase=12345678
 
 #Buat OVPN Client
+/interface ovpn-client> add name=OVPN-to-R1 user=R2 password=123 connect-to=10.0.0.1 certificate=rootCA
