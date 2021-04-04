@@ -6,5 +6,4 @@
 https://github.com/supon0/MikrotikOVPN/blob/main/server.rsc
 
 ## Setting Client
-## Setting Server
 https://github.com/supon0/MikrotikOVPN/blob/main/client.rsc
