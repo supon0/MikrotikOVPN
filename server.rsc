@@ -12,6 +12,9 @@
 #Menambah User OVPN
 /ppp secret add name=client1 password=123 local-address=12.0.0.1 remote-address=12.0.0.2
 
+#Menambah routing lewat OVPN
+/ip route add dst-address=192.168.2.0/24 gateway=12.0.0.2
+
 #Verifikasi
 /interface ovpn-server server print
 
