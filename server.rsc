@@ -12,7 +12,7 @@ set enabled=yes certificate=R1
 
 #Menambah User OVPN
 /ppp secret 
-add name=client1 password=123 local-address=12.0.0.1 remote-address=12.0.0.2
+add name=R2 password=123 local-address=12.0.0.1 remote-address=12.0.0.2
 
 #Menambah routing lewat OVPN
 /ip route 
