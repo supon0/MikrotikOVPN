@@ -7,6 +7,9 @@ add address=10.0.0.2/24 interface=ether1
 add address=192.168.2.1/24 interface=ether2
 
 #Copy Certificate
+/tool fetch mode=ftp user=admin password="" address=10.0.0.1 src-path=R2.key
+/tool fetch mode=ftp user=admin password="" address=10.0.0.1 src-path=R2.crt
+/tool fetch mode=ftp user=admin password="" address=10.0.0.1 src-path=suponoCA.crt
 
 #Tambah Routing lewat OVPN
 /ip route
